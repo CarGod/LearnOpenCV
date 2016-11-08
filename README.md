@@ -1,2 +1,0 @@
-# LearnOpenCV
-Learn OpenCV
