@@ -4,6 +4,8 @@ import cv2
 
 # 打开摄像头，这里只有一个则使用第0个。
 cap = cv2.VideoCapture(0)
+cap.set(3, 1024)
+cap.set(4, 768)
 
 while True:
     # 逐帧的读取
