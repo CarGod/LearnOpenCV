@@ -24,7 +24,7 @@ print(time)
 
 print('=======================================')
 
-img = cv2.imread('../temp.jpg')
+img = cv2.imread('../temp.jpg', 0)
 
 z = cv2.countNonZero(img)
 print(z)
