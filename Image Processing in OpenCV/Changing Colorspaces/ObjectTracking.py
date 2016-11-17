@@ -28,8 +28,8 @@ while(1):
             如果想扩大范围，就修改上限为：[H - 10, 50, 50]
     """
     # define range of blue color in HSV
-    lower_blue = np.array([110,100,100])
-    upper_blue = np.array([130,255,255])
+    lower_blue = np.array([20,100,100])
+    upper_blue = np.array([40,255,255])
 
     """
         把一个BGR颜色转换为HSV颜色

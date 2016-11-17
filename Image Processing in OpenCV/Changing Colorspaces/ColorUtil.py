@@ -32,7 +32,7 @@ def hsv2rgb(hsv):
     return cv2.cvtColor(hsv_uint8, cv2.COLOR_HSV2RGB)
 
 
-print(rgb2hsv([255,0,0]))
+print(rgb2hsv([255,255,0]))
 # print(rgb2hsv([255,200,200]))
 # print(hsv2rgb([0,55,80]))
 
