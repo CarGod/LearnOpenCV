@@ -24,8 +24,15 @@ print(time)
 
 print('=======================================')
 
-img = cv2.imread('../temp.jpg')
+img = cv2.imread('../temp.jpg', 0)
 
+print(img.shape)
+
+"""
+    这个方法，只能读取单通道的图像，如果传给他一个多通道的图像，他就会报错！！！
+    感谢大神的讲解：
+    http://stackoverflow.com/questions/40613197/i-use-python3-5-and-opencv-3-1-0-opencv-function-cv2-countnonzeroimg-i-got-a-e/40618366#40618366
+"""
 z = cv2.countNonZero(img)
 print(z)
 
